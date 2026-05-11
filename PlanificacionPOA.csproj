@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{578D1267-E90F-408A-B6A4-D2626E7636A5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PlanificacionPOA</RootNamespace>
+    <AssemblyName>PlanificacionPOA</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44359</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspNet.ScriptManager.bootstrap, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Versiones\PlanificacionPOA Version 1\bin\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=3.4.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ExcelLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ScriptManager.MSAjax, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\Versiones\PlanificacionPOA Version 1\bin\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\7. Obligacion\7. OBligacionesForestales - Modificaciones integracion\OBligacionesForestales\bin\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\7. Obligacion\7. OBligacionesForestales - Modificaciones integracion\OBligacionesForestales\bin\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\..\7. Obligacion\7. OBligacionesForestales - Modificaciones integracion\OBligacionesForestales\bin\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http">
+      <HintPath>..\..\7. Obligacion\7. OBligacionesForestales - Modificaciones integracion\OBligacionesForestales\bin\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\..\7. Obligacion\7. OBligacionesForestales - Modificaciones integracion\OBligacionesForestales\bin\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Telerik.Web.Design">
+      <HintPath>..\..\Manejo_Proyectos\3. Manejo_Proyectos Mejoras\Proyecto_Cooperacion\bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI">
+      <HintPath>..\..\Manejo_Proyectos\3. Manejo_Proyectos Mejoras\Proyecto_Cooperacion\bin\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>..\..\Manejo_Proyectos\3. Manejo_Proyectos Mejoras\Proyecto_Cooperacion\bin\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\animate.css\css\animate.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-grid.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-grid.min.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-reboot.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-reboot.min.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap.css" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap.min.css" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.bundle.js" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.bundle.min.js" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.js" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.min.js" />
+    <Content Include="assets\css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="assets\css\chartist\chartist.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\ionicons.css" />
+    <Content Include="assets\css\jquery.mCustomScrollbar.css" />
+    <Content Include="assets\css\morris.js\css\morris.css" />
+    <Content Include="assets\css\MyStyle.css" />
+    <Content Include="assets\css\partials\menu\pccoded-horizontal-menu.css" />
+    <Content Include="assets\css\pcoded-horizontal.min.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\icon\font-awesome\css\font-awesome.css" />
+    <Content Include="assets\icon\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\icon\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.css" />
+    <Content Include="assets\icon\icofont\css\icofont.css" />
+    <Content Include="assets\icon\icofont\fonts\icofont.svg" />
+    <Content Include="assets\icon\SVG-animated\svg-weather.css" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.svg" />
+    <Content Include="assets\icon\themify-icons\themify-icons.css" />
+    <Content Include="assets\images-old\auth\logo-dark.png" />
+    <Content Include="assets\images-old\auth\Logo-small-bottom.png" />
+    <Content Include="assets\images-old\auth\logo.png" />
+    <Content Include="assets\images-old\avatar-1.jpg" />
+    <Content Include="assets\images-old\avatar-2.jpg" />
+    <Content Include="assets\images-old\avatar-3.jpg" />
+    <Content Include="assets\images-old\avatar-4.jpg" />
+    <Content Include="assets\images-old\bg.jpg" />
+    <Content Include="assets\images-old\favicon.ico" />
+    <Content Include="assets\images-old\flags\ENGLISH.jpg" />
+    <Content Include="assets\images-old\flags\FRANCE.jpg" />
+    <Content Include="assets\images-old\flags\PORTO.jpg" />
+    <Content Include="assets\images-old\flags\SPAIN.jpg" />
+    <Content Include="assets\images-old\logo.png" />
+    <Content Include="assets\images-old\mega-menu\01.jpg" />
+    <Content Include="assets\images-old\mega-menu\02.jpg" />
+    <Content Include="assets\images-old\mega-menu\03.jpg" />
+    <Content Include="assets\images-old\mega-menu\04.jpg" />
+    <Content Include="assets\images-old\mega-menu\05.jpg" />
+    <Content Include="assets\images-old\mega-menu\06.jpg" />
+    <Content Include="assets\images-old\pattern2.jpg" />
+    <Content Include="assets\images-old\user.png" />
+    <Content Include="assets\images\auth\logo-dark.png" />
+    <Content Include="assets\images\auth\Logo-small-bottom.png" />
+    <Content Include="assets\images\auth\logo.png" />
+    <Content Include="assets\images\avatar-1.jpg" />
+    <Content Include="assets\images\avatar-2.jpg" />
+    <Content Include="assets\images\avatar-3.jpg" />
+    <Content Include="assets\images\avatar-4.jpg" />
+    <Content Include="assets\images\bg.jpg" />
+    <Content Include="assets\images\blog\blog-r-1.jpg" />
+    <Content Include="assets\images\blog\blog-r-2.jpg" />
+    <Content Include="assets\images\blog\blog-r-3.jpg" />
+    <Content Include="assets\images\favicon.ico" />
+    <Content Include="assets\images\flags\ENGLISH.jpg" />
+    <Content Include="assets\images\flags\FRANCE.jpg" />
+    <Content Include="assets\images\flags\PORTO.jpg" />
+    <Content Include="assets\images\flags\SPAIN.jpg" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\pattern1.jpg" />
+    <Content Include="assets\images\pattern2.jpg" />
+    <Content Include="assets\images\pattern3.jpg" />
+    <Content Include="assets\images\pattern4.jpg" />
+    <Content Include="assets\images\pattern5.jpg" />
+    <Content Include="assets\images\pattern6.jpg" />
+    <Content Include="assets\images\pattern7.jpg" />
+    <Content Include="assets\images\pattern8.jpg" />
+    <Content Include="assets\images\pattern9.jpg" />
+    <Content Include="assets\images\product\prod1.jpg" />
+    <Content Include="assets\images\product\prod2.jpg" />
+    <Content Include="assets\images\product\prod3.jpg" />
+    <Content Include="assets\images\product\prod4.jpg" />
+    <Content Include="assets\images\select-arrow.png" />
+    <Content Include="assets\images\slider-full %282%29.jpg" />
+    <Content Include="assets\images\slider-full %284%29.jpg" />
+    <Content Include="assets\images\user.png" />
+    <Content Include="assets\images\widget\Group-user.jpg" />
+    <Content Include="assets\images\widget\icon-1.png" />
+    <Content Include="assets\images\widget\icon-2.png" />
+    <Content Include="assets\images\widget\icon-3.png" />
+    <Content Include="assets\images\widget\icon-4.png" />
+    <Content Include="assets\images\widget\map-bg.png" />
+    <Content Include="assets\images\widget\mountain.png" />
+    <Content Include="assets\images\widget\prod.jpg" />
+    <Content Include="assets\images\widget\prod1.jpg" />
+    <Content Include="assets\images\widget\prod2.jpg" />
+    <Content Include="assets\images\widget\prod3.jpg" />
+    <Content Include="assets\images\widget\prod4.jpg" />
+    <Content Include="assets\images\widget\profile-person1.jpg" />
+    <Content Include="assets\images\widget\proticketbg.jpg" />
+    <Content Include="assets\images\widget\seoimg1.jpg" />
+    <Content Include="assets\images\widget\seoimg2.jpg" />
+    <Content Include="assets\images\widget\seoimg3.jpg" />
+    <Content Include="assets\images\widget\sparcle-1.png" />
+    <Content Include="assets\images\widget\sparcle-2.png" />
+    <Content Include="assets\images\widget\user-1.png" />
+    <Content Include="assets\images\widget\user-2.png" />
+    <Content Include="assets\images\widget\user-3.png" />
+    <Content Include="assets\images\widget\user-4.png" />
+    <Content Include="assets\images\widget\user-blur-bg.png" />
+    <Content Include="assets\images\widget\user1.png" />
+    <Content Include="assets\images\widget\user2.png" />
+    <Content Include="assets\images\widget\user3.png" />
+    <Content Include="assets\images\widget\user4.png" />
+    <Content Include="assets\js\bootstrap-growl.min.js" />
+    <Content Include="assets\js\bootstrap\js\bootstrap.min.js" />
+    <Content Include="assets\js\chart.js\Chart.js" />
+    <Content Include="assets\js\common-pages.js" />
+    <Content Include="assets\js\jquery-slimscroll\jquery.slimscroll.js" />
+    <Content Include="assets\js\jquery-ui\jquery-ui.min.js" />
+    <Content Include="assets\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="assets\js\jquery.mousewheel.min.js" />
+    <Content Include="assets\js\jquery\jquery.min.js" />
+    <Content Include="assets\js\modernizr\css-scrollbars.js" />
+    <Content Include="assets\js\modernizr\modernizr.js" />
+    <Content Include="assets\js\morris.js\morris.js" />
+    <Content Include="assets\js\pcoded.min.js" />
+    <Content Include="assets\js\popper.js\popper.min.js" />
+    <Content Include="assets\js\raphael\raphael.min.js" />
+    <Content Include="assets\js\script.js" />
+    <Content Include="assets\js\script.min.js" />
+    <Content Include="assets\js\SmoothScroll.js" />
+    <Content Include="assets\js\vartical-demo.js" />
+    <Content Include="assets\pages\accordion\accordion.js" />
+    <Content Include="assets\pages\accordion\accordion.min.js" />
+    <Content Include="assets\pages\chart\c3\c3-custom-chart.js" />
+    <Content Include="assets\pages\chart\chartjs\chartjs-custom.js" />
+    <Content Include="assets\pages\chart\chartlist\chartlist-custom.js" />
+    <Content Include="assets\pages\chart\chartlist\js\chartist-plugin-threshold.js" />
+    <Content Include="assets\pages\chart\chartlist\js\chartist-plugin-tooltip.min.js" />
+    <Content Include="assets\pages\chart\echarts\echart-custom.js" />
+    <Content Include="assets\pages\chart\echarts\js\echarts-all.js" />
+    <Content Include="assets\pages\chart\float\float-chart-custom.js" />
+    <Content Include="assets\pages\chart\float\jquery.flot.categories.js" />
+    <Content Include="assets\pages\chart\float\jquery.flot.js" />
+    <Content Include="assets\pages\chart\float\jquery.flot.pie.js" />
+    <Content Include="assets\pages\chart\google\js\custom-google-chart.js" />
+    <Content Include="assets\pages\chart\knob\jquery.knob.js" />
+    <Content Include="assets\pages\chart\knob\knob-custom-chart.js" />
+    <Content Include="assets\pages\chart\morris\morris-custom-chart.js" />
+    <Content Include="assets\pages\chart\nv-chart\js\stream_layers.js" />
+    <Content Include="assets\pages\chart\nvd3\chart-nvd3.js" />
+    <Content Include="assets\pages\chart\peity\peity-custom-chart.js" />
+    <Content Include="assets\pages\chart\radial\css\radial.css" />
+    <Content Include="assets\pages\chart\rickshow\d3.layout.min.js" />
+    <Content Include="assets\pages\chart\rickshow\rickshow-custom-.js" />
+    <Content Include="assets\pages\chart\sparkline\chart-sparkline.js" />
+    <Content Include="assets\pages\dashboard\amchart\css\amchart.css" />
+    <Content Include="assets\pages\dashboard\amchart\css\export.css" />
+    <Content Include="assets\pages\dashboard\amchart\js\amcharts.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\custom-amchart.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\export.min.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\images\dragIconRoundBig.svg" />
+    <Content Include="assets\pages\dashboard\amchart\js\images\dragIconRoundBigH.svg" />
+    <Content Include="assets\pages\dashboard\amchart\js\light.js" />
+    <Content Include="assets\pages\dashboard\amchart\js\serial.js" />
+    <Content Include="assets\pages\dashboard\analytic-dashboard.js" />
+    <Content Include="assets\pages\dashboard\analytic-dashboard.min.js" />
+    <Content Include="assets\pages\dashboard\crm-dashboard.js" />
+    <Content Include="assets\pages\dashboard\custom-dashboard.js" />
+    <Content Include="assets\pages\dashboard\custom-dashboard.min.js" />
+    <Content Include="assets\pages\dashboard\custom-dashboard1.js" />
+    <Content Include="assets\pages\dashboard\d3chart\js\bullet.js" />
+    <Content Include="assets\pages\dashboard\d3chart\js\d3.v3.min.js" />
+    <Content Include="assets\pages\dashboard\ecommerce-dashboard.js" />
+    <Content Include="assets\pages\dashboard\high-chart\js\high-chart.js" />
+    <Content Include="assets\pages\dashboard\horizontal-timeline\css\cd-arrow.svg" />
+    <Content Include="assets\pages\dashboard\horizontal-timeline\css\reset.css" />
+    <Content Include="assets\pages\dashboard\horizontal-timeline\css\style.css" />
+    <Content Include="assets\pages\dashboard\horizontal-timeline\js\jquery.mobile.custom.min.js" />
+    <Content Include="assets\pages\dashboard\horizontal-timeline\js\main.js" />
+    <Content Include="assets\pages\dashboard\project-dashboard.js" />
+    <Content Include="assets\pages\dashboard\project-dashboard.min.js" />
+    <Content Include="assets\pages\flag-icons.js" />
+    <Content Include="assets\pages\form-validation.js" />
+    <Content Include="assets\pages\google-maps\gmaps.min.js" />
+    <Content Include="assets\pages\google-maps\jquery.gmaps.js" />
+    <Content Include="assets\pages\icon-modal.js" />
+    <Content Include="assets\pages\notification\notification.css" />
+    <Content Include="assets\pages\notification\notification.js" />
+    <Content Include="assets\pages\range-slider.js" />
+    <Content Include="assets\pages\sortable-custom.js" />
+    <Content Include="assets\pages\todo\todo.js" />
+    <Content Include="assets\pages\user-profile.js" />
+    <Content Include="assets\pages\vector-maps\css\jquery-jvectormap-2.0.2.css" />
+    <Content Include="assets\pages\vector-maps\css\jquery-jvectormap.css" />
+    <Content Include="assets\pages\vector-maps\js\gdp-data.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-2.0.2.min.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-2.0.3.min.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-asia-mill.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-au-mill.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-ca-lcc.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-de-mill.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-in-mill.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-uk-mill-en.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-us-aea-en.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-us-il-chicago-mill-en.js" />
+    <Content Include="assets\pages\vector-maps\js\jquery-jvectormap-world-mill-en.js" />
+    <Content Include="assets\pages\vector-maps\js\map-vector.js" />
+    <Content Include="assets\pages\widget\amchart\amcharts.js" />
+    <Content Include="assets\pages\widget\amchart\amcharts.min.js" />
+    <Content Include="assets\pages\widget\amchart\ammap.js" />
+    <Content Include="assets\pages\widget\amchart\ammap.min.js" />
+    <Content Include="assets\pages\widget\amchart\continentsLow.js" />
+    <Content Include="assets\pages\widget\amchart\continentsLow.min.js" />
+    <Content Include="assets\pages\widget\amchart\gauge.js" />
+    <Content Include="assets\pages\widget\amchart\gauge.min.js" />
+    <Content Include="assets\pages\widget\amchart\light.js" />
+    <Content Include="assets\pages\widget\amchart\light.min.js" />
+    <Content Include="assets\pages\widget\amchart\pie.js" />
+    <Content Include="assets\pages\widget\amchart\pie.min.js" />
+    <Content Include="assets\pages\widget\amchart\serial.js" />
+    <Content Include="assets\pages\widget\amchart\serial.min.js" />
+    <Content Include="assets\pages\widget\amchart\worldLow.js" />
+    <Content Include="assets\pages\widget\amchart\worldLow.min.js" />
+    <Content Include="assets\pages\widget\calender\pignose.calendar.min.css" />
+    <Content Include="assets\pages\widget\calender\pignose.calendar.min.js" />
+    <Content Include="assets\pages\widget\custom-widget.js" />
+    <Content Include="assets\pages\widget\custom-widget1.js" />
+    <Content Include="assets\pages\widget\custom-widget1.min.js" />
+    <Content Include="assets\pages\widget\custom-widget2.js" />
+    <Content Include="assets\pages\widget\excanvas.js" />
+    <Content Include="assets\pages\widget\flipclock\flipclock.css" />
+    <Content Include="assets\pages\widget\flipclock\flipclock.min.js" />
+    <Content Include="assets\pages\widget\gauge\gauge.min.js" />
+    <Content Include="assets\pages\widget\jquery.sparkline.js" />
+    <Content Include="assets\pages\widget\pretty-calender\calendar.css" />
+    <Content Include="assets\pages\widget\pretty-calender\calendar.js" />
+    <Content Include="assets\pages\widget\timer\jquery.countdown.min.js" />
+    <Content Include="assets\pages\widget\timer\TimeCircles.js" />
+    <Content Include="assets\pages\widget\timer\waypoints.min.js" />
+    <Content Include="assets\pages\widget\waterball\createWaterBall-jquery.js" />
+    <Content Include="assets\pages\widget\widget-advanced.js" />
+    <Content Include="assets\pages\widget\widget-advanced.min.js" />
+    <Content Include="assets\scss\partials\menu\pccoded-horizontal-menu.css" />
+    <Content Include="Cambio_Password.aspx" />
+    <Content Include="Cerrar_Session_Sistema.aspx" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="ExportarExcel\ExcelPOARegionalVariado.aspx" />
+    <Content Include="ExportarExcel\ExportarExcelPOA.aspx" />
+    <Content Include="ExportarExcel\ExportarExcelPOARegional.aspx" />
+    <Content Include="ExportarExcel\ExportarPOANacional.aspx" />
+    <Content Include="ExportarExcel\ExportarPOANacional_Cuatrimestre.aspx" />
+    <Content Include="ExportarExcel\ReporteRegiones.aspx" />
+    <Content Include="ExportarExcel\ReporteRegionesAvances.aspx" />
+    <Content Include="fonts\font-awesome.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-grid.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-grid.min.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-reboot.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap-reboot.min.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\css\bootstrap.min.css.map" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.bundle.js.map" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.bundle.min.js.map" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.js.map" />
+    <Content Include="assets\css\bootstrap\Bot4\js\bootstrap.min.js.map" />
+    <Content Include="assets\css\partials\menu\pccoded-horizontal-menu.css.map" />
+    <Content Include="assets\css\partials\menu\pccoded-horizontal-menu.scss" />
+    <Content Include="assets\css\partials\menu\_pcmenu.scss" />
+    <Content Include="assets\css\partials\other\_alert.scss" />
+    <Content Include="assets\css\partials\other\_authentication.scss" />
+    <Content Include="assets\css\partials\other\_breadcrumb.scss" />
+    <Content Include="assets\css\partials\other\_charts.scss" />
+    <Content Include="assets\css\partials\other\_chat.scss" />
+    <Content Include="assets\css\partials\other\_color.scss" />
+    <Content Include="assets\css\partials\other\_draggable.scss" />
+    <Content Include="assets\css\partials\other\_e-payment.scss" />
+    <Content Include="assets\css\partials\other\_editors.scss" />
+    <Content Include="assets\css\partials\other\_fb-wall.scss" />
+    <Content Include="assets\css\partials\other\_full-calender.scss" />
+    <Content Include="assets\css\partials\other\_job-find.scss" />
+    <Content Include="assets\css\partials\other\_mail-pages.scss" />
+    <Content Include="assets\css\partials\other\_maps.scss" />
+    <Content Include="assets\css\partials\other\_navbars.scss" />
+    <Content Include="assets\css\partials\other\_note.scss" />
+    <Content Include="assets\css\partials\other\_pre-loader.scss" />
+    <Content Include="assets\css\partials\other\_prism.scss" />
+    <Content Include="assets\css\partials\other\_progress-bar.scss" />
+    <Content Include="assets\css\partials\other\_range-slider.scss" />
+    <Content Include="assets\css\partials\other\_rating.scss" />
+    <Content Include="assets\css\partials\responsive\_responsive.scss" />
+    <Content Include="assets\css\partials\tables\_tables.scss" />
+    <Content Include="assets\css\partials\theme-elements\_box-shadow.scss" />
+    <Content Include="assets\css\partials\theme-elements\_button.scss" />
+    <Content Include="assets\css\partials\theme-elements\_form-elements.scss" />
+    <Content Include="assets\css\partials\theme-elements\_icon-layout.scss" />
+    <Content Include="assets\css\partials\theme-elements\_label-badges.scss" />
+    <Content Include="assets\css\partials\theme-elements\_ready-to-use.scss" />
+    <Content Include="assets\css\partials\todo\_todo.scss" />
+    <Content Include="assets\css\partials\widget-dashboard\_dashboard.scss" />
+    <Content Include="assets\css\partials\widget-dashboard\_widget.scss" />
+    <Content Include="assets\css\partials\_dark.scss" />
+    <Content Include="assets\css\partials\_general.scss" />
+    <Content Include="assets\css\partials\_generic.scss" />
+    <Content Include="assets\css\partials\_mixins.scss" />
+    <Content Include="assets\css\partials\_variables.scss" />
+    <Content Include="assets\css\pcoded-horizontal.min.css.map" />
+    <Content Include="assets\css\style.css.map" />
+    <Content Include="assets\css\style.scss" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\icon\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="assets\icon\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\icon\font-awesome\less\animated.less" />
+    <Content Include="assets\icon\font-awesome\less\bordered-pulled.less" />
+    <Content Include="assets\icon\font-awesome\less\core.less" />
+    <Content Include="assets\icon\font-awesome\less\fixed-width.less" />
+    <Content Include="assets\icon\font-awesome\less\font-awesome.less" />
+    <Content Include="assets\icon\font-awesome\less\icons.less" />
+    <Content Include="assets\icon\font-awesome\less\larger.less" />
+    <Content Include="assets\icon\font-awesome\less\list.less" />
+    <Content Include="assets\icon\font-awesome\less\mixins.less" />
+    <Content Include="assets\icon\font-awesome\less\path.less" />
+    <Content Include="assets\icon\font-awesome\less\rotated-flipped.less" />
+    <Content Include="assets\icon\font-awesome\less\screen-reader.less" />
+    <Content Include="assets\icon\font-awesome\less\stacked.less" />
+    <Content Include="assets\icon\font-awesome\less\variables.less" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.css.map" />
+    <Content Include="assets\icon\font-awesome\scss\font-awesome.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_animated.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_core.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_icons.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_larger.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_list.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_mixins.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_path.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_stacked.scss" />
+    <Content Include="assets\icon\font-awesome\scss\_variables.scss" />
+    <Content Include="assets\icon\icofont\fonts\icofont.eot" />
+    <Content Include="assets\icon\icofont\fonts\icofont.ttf" />
+    <Content Include="assets\icon\icofont\fonts\icofont.woff" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.eot" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.ttf" />
+    <Content Include="assets\icon\themify-icons\fonts\themify.woff" />
+    <Content Include="assets\pages\dashboard\d3chart\js\bullets.json" />
+    <Content Include="assets\scss\partials\menu\pccoded-horizontal-menu.css.map" />
+    <Content Include="assets\scss\partials\menu\pccoded-horizontal-menu.scss" />
+    <Content Include="assets\scss\partials\menu\_pcmenu.scss" />
+    <Content Include="assets\scss\partials\other\_authentication.scss" />
+    <Content Include="assets\scss\partials\other\_breadcrumb.scss" />
+    <Content Include="assets\scss\partials\other\_charts.scss" />
+    <Content Include="assets\scss\partials\other\_color.scss" />
+    <Content Include="assets\scss\partials\other\_maps.scss" />
+    <Content Include="assets\scss\partials\other\_navbars.scss" />
+    <Content Include="assets\scss\partials\other\_progress-bar.scss" />
+    <Content Include="assets\scss\partials\responsive\_responsive.scss" />
+    <Content Include="assets\scss\partials\tables\_tables.scss" />
+    <Content Include="assets\scss\partials\theme-elements\_button.scss" />
+    <Content Include="assets\scss\partials\theme-elements\_form-elements.scss" />
+    <Content Include="assets\scss\partials\theme-elements\_icon-layout.scss" />
+    <Content Include="assets\scss\partials\theme-elements\_label-badges.scss" />
+    <Content Include="assets\scss\partials\todo\_todo.scss" />
+    <Content Include="assets\scss\partials\widget-dashboard\_widget.scss" />
+    <Content Include="assets\scss\partials\_dark.scss" />
+    <Content Include="assets\scss\partials\_general.scss" />
+    <Content Include="assets\scss\partials\_generic.scss" />
+    <Content Include="assets\scss\partials\_mixins.scss" />
+    <Content Include="assets\scss\partials\_variables.scss" />
+    <Content Include="assets\scss\style.scss" />
+    <Content Include="Iconos\AgregarD.png" />
+    <Content Include="Iconos\PaginaWeb.png" />
+    <Content Include="Paginas\ActividadNacionalMonitoreo.aspx" />
+    <Content Include="Paginas\AgregarPSAPOA.aspx" />
+    <Content Include="Paginas\Avances_Nacional.aspx" />
+    <Content Include="Paginas\Avance_Regional.aspx" />
+    <Content Include="Paginas\ReprogramacionPlanificacion.aspx" />
+    <Content Include="Paginas\ReprogramacionRegional.aspx" />
+    <Content Include="Paginas\SeguimientoPOA.aspx" />
+    <Content Include="Paginas\Tareas_Monitoreo_Departamentos.aspx" />
+    <Content Include="Paginas\Tarea_Monitoreo_DirectorNacional.aspx" />
+    <Content Include="Paginas\X_ConsumoFamiliar.aspx" />
+    <Content Include="Paginas\X_IncentivoForestales.aspx" />
+    <Content Include="Paginas\X_IndustriayComercio.aspx" />
+    <Content Include="Paginas\X_IngresoCulturaForestal.aspx" />
+    <Content Include="Paginas\X_IngresoExentosLicencias.aspx" />
+    <Content Include="Paginas\X_IngresoLicenciaForestales.aspx" />
+    <Content Include="Paginas\X_IngresoMangle.aspx" />
+    <Content Include="Paginas\X_IngresoPinpep.aspx" />
+    <Content Include="Paginas\X_IngresoRNF.aspx" />
+    <Content Include="Paginas\X_Pinabete.aspx" />
+    <Content Include="Paginas\X_PPMF.aspx" />
+    <Content Include="Paginas\X_ProgramaReduccionEmisiones.aspx" />
+    <Content Include="Paginas\X_ProteccionForestal.aspx" />
+    <Content Include="Paginas\Y_Nacionales.aspx" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
+    <Content Include="Scripts\bootstrap.esm.js" />
+    <Content Include="Scripts\bootstrap.esm.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.esm.min.js.map" />
+    <Content Include="Scripts\bootstrap.esm.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Icono.png" />
+    <Content Include="Iconos\Agregar.png" />
+    <Content Include="Iconos\alerta.gif" />
+    <Content Include="Iconos\Aprobar.png" />
+    <Content Include="Iconos\Configurar.png" />
+    <Content Include="Iconos\copiar.png" />
+    <Content Include="Iconos\delete.png" />
+    <Content Include="Iconos\Denegar.png" />
+    <Content Include="Iconos\descarga.png" />
+    <Content Include="Iconos\editarI.png" />
+    <Content Include="Iconos\Eliminar.png" />
+    <Content Include="Iconos\EnvioTarea.PNG" />
+    <Content Include="Iconos\excel.png" />
+    <Content Include="Iconos\flechas_Abajo.png" />
+    <Content Include="Iconos\flechas_Arriba.png" />
+    <Content Include="Iconos\fondo.png" />
+    <Content Include="Iconos\grifo.png" />
+    <Content Include="Iconos\InicioTarea.png" />
+    <Content Include="Iconos\lupaG.png" />
+    <Content Include="Iconos\mantenimiento.png" />
+    <Content Include="Iconos\mensaje.png" />
+    <Content Include="Iconos\NotificaBoton.png" />
+    <Content Include="Iconos\Notificacion.png" />
+    <Content Include="Iconos\Off.PNG" />
+    <Content Include="Iconos\On.PNG" />
+    <Content Include="Iconos\refresh.png" />
+    <Content Include="Iconos\Reprogramar.png" />
+    <Content Include="Iconos\ResetearN.png" />
+    <Content Include="Iconos\Seleccionar.png" />
+    <Content Include="Iconos\TareaRegional.png" />
+    <Content Include="Iconos\Visualizar.png" />
+    <Content Include="Imagenes\CampanaNotifica.jpg" />
+    <Content Include="Imagenes\cargando.gif" />
+    <Content Include="Imagenes\Carrusel\portada-1.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-10.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-2.jpg" />
+    <Content Include="Imagenes\Carrusel\portada-3.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-4.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-5.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-6.jpg" />
+    <Content Include="Imagenes\Carrusel\portada-7.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-8.JPG" />
+    <Content Include="Imagenes\Carrusel\portada-9.JPG" />
+    <Content Include="Imagenes\comunicado.gif" />
+    <Content Include="Imagenes\enconstruccion.gif" />
+    <Content Include="Imagenes\Entrada.JPG" />
+    <Content Include="Imagenes\logoINAB21.png" />
+    <Content Include="Imagenes\Messages\Mensaje_1.png" />
+    <Content Include="Imagenes\Messages\Mensaje_2.png" />
+    <Content Include="Imagenes\Messages\Mensaje_3.png" />
+    <Content Include="Imagenes\Messages\Mensaje_4.png" />
+    <Content Include="Imagenes\Messages\Mensaje_5.png" />
+    <Content Include="Imagenes\Messages\Mensaje_6.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Login_Css\all.min.css" />
+    <Content Include="Login_Css\bootstrap.min.css" />
+    <Content Include="Login_Css\bootstrap.min.js" />
+    <Content Include="Login_Css\Copiar.css" />
+    <Content Include="Login_Css\jquery-1.12.4.min.js" />
+    <Content Include="Login_Css\jquery2.min.js" />
+    <Content Include="Login_Css\Login.css" />
+    <Content Include="Login_Css\sb-admin-2.min.css" />
+    <Content Include="Paginas\Admon_Permisos.aspx" />
+    <Content Include="Paginas\Admon_Poas.aspx" />
+    <Content Include="Paginas\Admon_Usuarios.aspx" />
+    <Content Include="Paginas\CatalogoPoaNacional.aspx" />
+    <Content Include="Paginas\CatalogoPoaNacionalPlanificacion.aspx" />
+    <Content Include="Paginas\Componentes_Monitoreo.aspx" />
+    <Content Include="Paginas\ConsultadePoaNacional.aspx" />
+    <Content Include="Paginas\ConsultadePoaRegionales.aspx" />
+    <Content Include="Paginas\Creacion_Poas.aspx" />
+    <Content Include="Paginas\DocumentosRed.aspx" />
+    <Content Include="Paginas\EdicionDeMetasDSR.aspx" />
+    <Content Include="Paginas\EdicionDeMetasDSRNacional.aspx" />
+    <Content Include="Paginas\ImagenesPortada.aspx" />
+    <Content Include="Paginas\IngresodeMetasDSR.aspx" />
+    <Content Include="Paginas\IngresodeMetasNacionales.aspx" />
+    <Content Include="Paginas\IngresoMetasValoresSR.aspx" />
+    <Content Include="Paginas\MantenimientoPOAs.aspx" />
+    <Content Include="Paginas\ModificacionesPOA.aspx" />
+    <Content Include="Paginas\ModificacionesPOANacional.aspx" />
+    <Content Include="Paginas\ReportesDelSistema.aspx" />
+    <Content Include="Paginas\Portada.aspx" />
+    <Content Include="Paginas\Producto_Regional.aspx" />
+    <Content Include="Paginas\RevisionDeMetas.aspx" />
+    <Content Include="Paginas\RevisionDeMetasNacionales.aspx" />
+    <Content Include="Paginas\Tareas_Departamentos.aspx" />
+    <Content Include="Paginas\Tareas_Directores_Nacionales.aspx" />
+    <Content Include="Paginas\Tareas_JefePlanificacion_Nacional.aspx" />
+    <Content Include="Paginas\Tareas_Jefe_Planificacion.aspx" />
+    <Content Include="Paginas\Tareas_Planificador.aspx" />
+    <Content Include="Paginas\Tareas_Regional.aspx" />
+    <Content Include="Paginas\Tareas_SubRegional.aspx" />
+    <Content Include="Paginas\Tarea_Monitoreo.aspx" />
+    <Content Include="Paginas\Tarea_Monitoreo_Region.aspx" />
+    <Content Include="Paginas\Tarea_Monitoreo_SubRegion.aspx" />
+    <Content Include="Paginas\X_IngresoAsuntosJuridicos.aspx" />
+    <Content Include="Paginas\X_IngresoCapacitacion.aspx" />
+    <Content Include="Paginas\X_IngresoFiscalizacionyControl.aspx" />
+    <Content Include="Paginas\X_IngresoFortalecimiento.aspx" />
+    <Content Include="Paginas\X_IngresoMonitoreoForestal.aspx" />
+    <Content Include="Paginas\X_IngresoProbosque.aspx" />
+    <Content Include="Resetear_Password.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\Debug_Poa_Cristian.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile1.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile2.pubxml" />
+    <None Include="Properties\PublishProfiles\FolderProfile3.pubxml" />
+    <None Include="Properties\PublishProfiles\POA_CAPA.pubxml" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="MarcoTrabajo\Site.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Bundle.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Cambio_Password.aspx.cs">
+      <DependentUpon>Cambio_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cambio_Password.aspx.designer.cs">
+      <DependentUpon>Cambio_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cerrar_Session_Sistema.aspx.cs">
+      <DependentUpon>Cerrar_Session_Sistema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cerrar_Session_Sistema.aspx.designer.cs">
+      <DependentUpon>Cerrar_Session_Sistema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConexionBDD\ConectarBDD.cs" />
+    <Compile Include="Controladores\Encriptacion.cs" />
+    <Compile Include="Controladores\Entrada_Sistema.cs" />
+    <Compile Include="Controladores\Envio_Correos.cs" />
+    <Compile Include="Controladores\ManejarApi.cs" />
+    <Compile Include="Controladores\ManejoInformacionMonitoreo.cs" />
+    <Compile Include="Controladores\Manejo_Creacion_Poas.cs" />
+    <Compile Include="Controladores\Manejo_Datos_ProductoRegional.cs" />
+    <Compile Include="Controladores\Manejo_De_Archivos.cs" />
+    <Compile Include="Controladores\Manejo_De_Mantenimiento_PoaNacional.cs" />
+    <Compile Include="Controladores\ManipulacionIngresoValoresMetas.cs" />
+    <Compile Include="Controladores\Manipulacion_de_Tareas.cs" />
+    <Compile Include="Controladores\Manipulacion_Usuarios.cs" />
+    <Compile Include="Controladores\Validacion.cs" />
+    <Compile Include="Controladores\ValidarCamposObligatoriosMonitoreo.cs" />
+    <Compile Include="Controladores\Validar_Cui.cs" />
+    <Compile Include="Controladores\Validar_Productos_Codigo.cs" />
+    <Compile Include="Controladores\XmlConverter.cs" />
+    <Compile Include="ExportarExcel\ExcelPOARegionalVariado.aspx.cs">
+      <DependentUpon>ExcelPOARegionalVariado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ExcelPOARegionalVariado.aspx.designer.cs">
+      <DependentUpon>ExcelPOARegionalVariado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarExcelPOA.aspx.cs">
+      <DependentUpon>ExportarExcelPOA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarExcelPOA.aspx.designer.cs">
+      <DependentUpon>ExportarExcelPOA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarExcelPOARegional.aspx.cs">
+      <DependentUpon>ExportarExcelPOARegional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarExcelPOARegional.aspx.designer.cs">
+      <DependentUpon>ExportarExcelPOARegional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarPOANacional.aspx.cs">
+      <DependentUpon>ExportarPOANacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarPOANacional.aspx.designer.cs">
+      <DependentUpon>ExportarPOANacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarPOANacional_Cuatrimestre.aspx.cs">
+      <DependentUpon>ExportarPOANacional_Cuatrimestre.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ExportarPOANacional_Cuatrimestre.aspx.designer.cs">
+      <DependentUpon>ExportarPOANacional_Cuatrimestre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ReporteRegiones.aspx.cs">
+      <DependentUpon>ReporteRegiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ReporteRegiones.aspx.designer.cs">
+      <DependentUpon>ReporteRegiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarExcel\ReporteRegionesAvances.aspx.cs">
+      <DependentUpon>ReporteRegionesAvances.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ExportarExcel\ReporteRegionesAvances.aspx.designer.cs">
+      <DependentUpon>ReporteRegionesAvances.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\AIObjetos.cs" />
+    <Compile Include="Modelos\AIObjetosNacionales.cs" />
+    <Compile Include="Modelos\AIObjetosRegional.cs" />
+    <Compile Include="Modelos\ArchivosParaCarga.cs" />
+    <Compile Include="Modelos\Buscar_Select.cs" />
+    <Compile Include="Modelos\ConfiguracionUMNacionales.cs" />
+    <Compile Include="Modelos\Correo_Data.cs" />
+    <Compile Include="Modelos\DatosReporte.cs" />
+    <Compile Include="Modelos\DatosTarea.cs" />
+    <Compile Include="Modelos\Datos_AprobacionPoa.cs" />
+    <Compile Include="Modelos\Datos_Permisos.cs" />
+    <Compile Include="Modelos\DiasPendiente.cs" />
+    <Compile Include="Modelos\DocumentoFisico.cs" />
+    <Compile Include="Modelos\DproductoEnvio.cs" />
+    <Compile Include="Modelos\EliminacionDatoMonitoreo.cs" />
+    <Compile Include="Modelos\Extraer_Usuario.cs" />
+    <Compile Include="Modelos\GuardaMetasNacional.cs" />
+    <Compile Include="Modelos\GuardarMetasSubregion.cs" />
+    <Compile Include="Modelos\InformacionActividadesNacionales.cs" />
+    <Compile Include="Modelos\Ingreso_Usuario.cs" />
+    <Compile Include="Modelos\ItemEdit.cs" />
+    <Compile Include="Modelos\Mensajes_Error_BDD.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseFive.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseFour.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseOne.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseSeven.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseSix.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseThree.cs" />
+    <Compile Include="Modelos\ModelosApi\ClaseTwo.cs" />
+    <Compile Include="Modelos\ModelosApi\Consumo.cs" />
+    <Compile Include="Modelos\ModelosApi\ConsumoFamiliar.cs" />
+    <Compile Include="Modelos\ModelosApi\DatosMonitoreoIngresoMetas.cs" />
+    <Compile Include="Modelos\ModelosApi\EnvioDatosApi.cs" />
+    <Compile Include="Modelos\ModelosApi\ExentosForestales.cs" />
+    <Compile Include="Modelos\ModelosApi\IncetivosForestalesINAB.cs" />
+    <Compile Include="Modelos\ModelosApi\LicenciasForestales.cs" />
+    <Compile Include="Modelos\ModelosApi\ModificacionesPoa.cs" />
+    <Compile Include="Modelos\ModelosApi\Obligaciones.cs" />
+    <Compile Include="Modelos\ModelosApi\PlanesdeManejo.cs" />
+    <Compile Include="Modelos\ModelosApi\RegistroNacional.cs" />
+    <Compile Include="Modelos\ModelosApi\ResultadoConsumoFamiliar.cs" />
+    <Compile Include="Modelos\Monitoreo\CapacitacionDatos1.cs" />
+    <Compile Include="Modelos\Monitoreo\CapacitacionDatos2.cs" />
+    <Compile Include="Modelos\Monitoreo\CondicionalUM.cs" />
+    <Compile Include="Modelos\Monitoreo\DatosExtraMonitoreo.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle3CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle4CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle5CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle6CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle7CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\Detalle8CulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\DetallePRE.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoConsumoFamiliarIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoCulturaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoExentosIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoFiscalizacionIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoFortalecimiento.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoIncentivosForestales.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoIndustriaComercio.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoLicenciaForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoMangle.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoMonitoreoIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoNacionalGeneral.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoPinabete.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoPINPEPIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoPPMF.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoProbosqueIngreso.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoProgramaReduccionEmision.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoProteccionForestal.cs" />
+    <Compile Include="Modelos\Monitoreo\EncabezadoRNF.cs" />
+    <Compile Include="Modelos\Monitoreo\FiscalizacionDatos1.cs" />
+    <Compile Include="Modelos\Monitoreo\FiscalizacionDatos2.cs" />
+    <Compile Include="Modelos\Monitoreo\Fortalecimiento1.cs" />
+    <Compile Include="Modelos\Monitoreo\Medios.cs" />
+    <Compile Include="Modelos\Monitoreo\MonitoreoObjetos.cs" />
+    <Compile Include="Modelos\Permisos.cs" />
+    <Compile Include="Modelos\Permisos_del_Sistema.cs" />
+    <Compile Include="Modelos\PoasCreados.cs" />
+    <Compile Include="Modelos\ProductoRegional.cs" />
+    <Compile Include="Modelos\RegresoInformacionSubregional.cs" />
+    <Compile Include="Modelos\Tarea.cs" />
+    <Compile Include="Modelos\TMonitoreo.cs" />
+    <Compile Include="Modelos\UsuarioValida.cs" />
+    <Compile Include="Modelos\Usuario_del_Sistema.cs" />
+    <Compile Include="Modelos\Usuario_Manipulacion.cs" />
+    <Compile Include="Modelos\Validar_Data.cs" />
+    <Compile Include="Paginas\ActividadNacionalMonitoreo.aspx.cs">
+      <DependentUpon>ActividadNacionalMonitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ActividadNacionalMonitoreo.aspx.designer.cs">
+      <DependentUpon>ActividadNacionalMonitoreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Admon_Permisos.aspx.cs">
+      <DependentUpon>Admon_Permisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Admon_Permisos.aspx.designer.cs">
+      <DependentUpon>Admon_Permisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Admon_Poas.aspx.cs">
+      <DependentUpon>Admon_Poas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Admon_Poas.aspx.designer.cs">
+      <DependentUpon>Admon_Poas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Admon_Usuarios.aspx.cs">
+      <DependentUpon>Admon_Usuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Admon_Usuarios.aspx.designer.cs">
+      <DependentUpon>Admon_Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\AgregarPSAPOA.aspx.cs">
+      <DependentUpon>AgregarPSAPOA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\AgregarPSAPOA.aspx.designer.cs">
+      <DependentUpon>AgregarPSAPOA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Avances_Nacional.aspx.cs">
+      <DependentUpon>Avances_Nacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Avances_Nacional.aspx.designer.cs">
+      <DependentUpon>Avances_Nacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Avance_Regional.aspx.cs">
+      <DependentUpon>Avance_Regional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Avance_Regional.aspx.designer.cs">
+      <DependentUpon>Avance_Regional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\CatalogoPoaNacional.aspx.cs">
+      <DependentUpon>CatalogoPoaNacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\CatalogoPoaNacional.aspx.designer.cs">
+      <DependentUpon>CatalogoPoaNacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\CatalogoPoaNacionalPlanificacion.aspx.cs">
+      <DependentUpon>CatalogoPoaNacionalPlanificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\CatalogoPoaNacionalPlanificacion.aspx.designer.cs">
+      <DependentUpon>CatalogoPoaNacionalPlanificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Componentes_Monitoreo.aspx.cs">
+      <DependentUpon>Componentes_Monitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Componentes_Monitoreo.aspx.designer.cs">
+      <DependentUpon>Componentes_Monitoreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ConsultadePoaNacional.aspx.cs">
+      <DependentUpon>ConsultadePoaNacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ConsultadePoaNacional.aspx.designer.cs">
+      <DependentUpon>ConsultadePoaNacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ConsultadePoaRegionales.aspx.cs">
+      <DependentUpon>ConsultadePoaRegionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ConsultadePoaRegionales.aspx.designer.cs">
+      <DependentUpon>ConsultadePoaRegionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Creacion_Poas.aspx.cs">
+      <DependentUpon>Creacion_Poas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Creacion_Poas.aspx.designer.cs">
+      <DependentUpon>Creacion_Poas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\DocumentosRed.aspx.cs">
+      <DependentUpon>DocumentosRed.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\DocumentosRed.aspx.designer.cs">
+      <DependentUpon>DocumentosRed.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\EdicionDeMetasDSR.aspx.cs">
+      <DependentUpon>EdicionDeMetasDSR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\EdicionDeMetasDSR.aspx.designer.cs">
+      <DependentUpon>EdicionDeMetasDSR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\EdicionDeMetasDSRNacional.aspx.cs">
+      <DependentUpon>EdicionDeMetasDSRNacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\EdicionDeMetasDSRNacional.aspx.designer.cs">
+      <DependentUpon>EdicionDeMetasDSRNacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ImagenesPortada.aspx.cs">
+      <DependentUpon>ImagenesPortada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ImagenesPortada.aspx.designer.cs">
+      <DependentUpon>ImagenesPortada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\IngresodeMetasDSR.aspx.cs">
+      <DependentUpon>IngresodeMetasDSR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\IngresodeMetasDSR.aspx.designer.cs">
+      <DependentUpon>IngresodeMetasDSR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\IngresodeMetasNacionales.aspx.cs">
+      <DependentUpon>IngresodeMetasNacionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\IngresodeMetasNacionales.aspx.designer.cs">
+      <DependentUpon>IngresodeMetasNacionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\IngresoMetasValoresSR.aspx.cs">
+      <DependentUpon>IngresoMetasValoresSR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\IngresoMetasValoresSR.aspx.designer.cs">
+      <DependentUpon>IngresoMetasValoresSR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\MantenimientoPOAs.aspx.cs">
+      <DependentUpon>MantenimientoPOAs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\MantenimientoPOAs.aspx.designer.cs">
+      <DependentUpon>MantenimientoPOAs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ModificacionesPOA.aspx.cs">
+      <DependentUpon>ModificacionesPOA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ModificacionesPOA.aspx.designer.cs">
+      <DependentUpon>ModificacionesPOA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ModificacionesPOANacional.aspx.cs">
+      <DependentUpon>ModificacionesPOANacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ModificacionesPOANacional.aspx.designer.cs">
+      <DependentUpon>ModificacionesPOANacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ReportesDelSistema.aspx.cs">
+      <DependentUpon>ReportesDelSistema.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ReportesDelSistema.aspx.designer.cs">
+      <DependentUpon>ReportesDelSistema.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Portada.aspx.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Portada.aspx.designer.cs">
+      <DependentUpon>Portada.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Producto_Regional.aspx.cs">
+      <DependentUpon>Producto_Regional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Producto_Regional.aspx.designer.cs">
+      <DependentUpon>Producto_Regional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ReprogramacionPlanificacion.aspx.cs">
+      <DependentUpon>ReprogramacionPlanificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ReprogramacionPlanificacion.aspx.designer.cs">
+      <DependentUpon>ReprogramacionPlanificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ReprogramacionRegional.aspx.cs">
+      <DependentUpon>ReprogramacionRegional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ReprogramacionRegional.aspx.designer.cs">
+      <DependentUpon>ReprogramacionRegional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\RevisionDeMetas.aspx.cs">
+      <DependentUpon>RevisionDeMetas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\RevisionDeMetas.aspx.designer.cs">
+      <DependentUpon>RevisionDeMetas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\RevisionDeMetasNacionales.aspx.cs">
+      <DependentUpon>RevisionDeMetasNacionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\RevisionDeMetasNacionales.aspx.designer.cs">
+      <DependentUpon>RevisionDeMetasNacionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\SeguimientoPOA.aspx.cs">
+      <DependentUpon>SeguimientoPOA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\SeguimientoPOA.aspx.designer.cs">
+      <DependentUpon>SeguimientoPOA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Departamentos.aspx.cs">
+      <DependentUpon>Tareas_Departamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Departamentos.aspx.designer.cs">
+      <DependentUpon>Tareas_Departamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Directores_Nacionales.aspx.cs">
+      <DependentUpon>Tareas_Directores_Nacionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Directores_Nacionales.aspx.designer.cs">
+      <DependentUpon>Tareas_Directores_Nacionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_JefePlanificacion_Nacional.aspx.cs">
+      <DependentUpon>Tareas_JefePlanificacion_Nacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_JefePlanificacion_Nacional.aspx.designer.cs">
+      <DependentUpon>Tareas_JefePlanificacion_Nacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Jefe_Planificacion.aspx.cs">
+      <DependentUpon>Tareas_Jefe_Planificacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Jefe_Planificacion.aspx.designer.cs">
+      <DependentUpon>Tareas_Jefe_Planificacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Monitoreo_Departamentos.aspx.cs">
+      <DependentUpon>Tareas_Monitoreo_Departamentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Monitoreo_Departamentos.aspx.designer.cs">
+      <DependentUpon>Tareas_Monitoreo_Departamentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Planificador.aspx.cs">
+      <DependentUpon>Tareas_Planificador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Planificador.aspx.designer.cs">
+      <DependentUpon>Tareas_Planificador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Regional.aspx.cs">
+      <DependentUpon>Tareas_Regional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_Regional.aspx.designer.cs">
+      <DependentUpon>Tareas_Regional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tareas_SubRegional.aspx.cs">
+      <DependentUpon>Tareas_SubRegional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tareas_SubRegional.aspx.designer.cs">
+      <DependentUpon>Tareas_SubRegional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo.aspx.cs">
+      <DependentUpon>Tarea_Monitoreo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo.aspx.designer.cs">
+      <DependentUpon>Tarea_Monitoreo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_DirectorNacional.aspx.cs">
+      <DependentUpon>Tarea_Monitoreo_DirectorNacional.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_DirectorNacional.aspx.designer.cs">
+      <DependentUpon>Tarea_Monitoreo_DirectorNacional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_Region.aspx.cs">
+      <DependentUpon>Tarea_Monitoreo_Region.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_Region.aspx.designer.cs">
+      <DependentUpon>Tarea_Monitoreo_Region.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_SubRegion.aspx.cs">
+      <DependentUpon>Tarea_Monitoreo_SubRegion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Tarea_Monitoreo_SubRegion.aspx.designer.cs">
+      <DependentUpon>Tarea_Monitoreo_SubRegion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_ConsumoFamiliar.aspx.cs">
+      <DependentUpon>X_ConsumoFamiliar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_ConsumoFamiliar.aspx.designer.cs">
+      <DependentUpon>X_ConsumoFamiliar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IncentivoForestales.aspx.cs">
+      <DependentUpon>X_IncentivoForestales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IncentivoForestales.aspx.designer.cs">
+      <DependentUpon>X_IncentivoForestales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IndustriayComercio.aspx.cs">
+      <DependentUpon>X_IndustriayComercio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IndustriayComercio.aspx.designer.cs">
+      <DependentUpon>X_IndustriayComercio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoAsuntosJuridicos.aspx.cs">
+      <DependentUpon>X_IngresoAsuntosJuridicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoAsuntosJuridicos.aspx.designer.cs">
+      <DependentUpon>X_IngresoAsuntosJuridicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoCapacitacion.aspx.cs">
+      <DependentUpon>X_IngresoCapacitacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoCapacitacion.aspx.designer.cs">
+      <DependentUpon>X_IngresoCapacitacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoCulturaForestal.aspx.cs">
+      <DependentUpon>X_IngresoCulturaForestal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoCulturaForestal.aspx.designer.cs">
+      <DependentUpon>X_IngresoCulturaForestal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoExentosLicencias.aspx.cs">
+      <DependentUpon>X_IngresoExentosLicencias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoExentosLicencias.aspx.designer.cs">
+      <DependentUpon>X_IngresoExentosLicencias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoFiscalizacionyControl.aspx.cs">
+      <DependentUpon>X_IngresoFiscalizacionyControl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoFiscalizacionyControl.aspx.designer.cs">
+      <DependentUpon>X_IngresoFiscalizacionyControl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoFortalecimiento.aspx.cs">
+      <DependentUpon>X_IngresoFortalecimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoFortalecimiento.aspx.designer.cs">
+      <DependentUpon>X_IngresoFortalecimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoLicenciaForestales.aspx.cs">
+      <DependentUpon>X_IngresoLicenciaForestales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoLicenciaForestales.aspx.designer.cs">
+      <DependentUpon>X_IngresoLicenciaForestales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoMangle.aspx.cs">
+      <DependentUpon>X_IngresoMangle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoMangle.aspx.designer.cs">
+      <DependentUpon>X_IngresoMangle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoMonitoreoForestal.aspx.cs">
+      <DependentUpon>X_IngresoMonitoreoForestal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoMonitoreoForestal.aspx.designer.cs">
+      <DependentUpon>X_IngresoMonitoreoForestal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoPinpep.aspx.cs">
+      <DependentUpon>X_IngresoPinpep.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoPinpep.aspx.designer.cs">
+      <DependentUpon>X_IngresoPinpep.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoProbosque.aspx.cs">
+      <DependentUpon>X_IngresoProbosque.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoProbosque.aspx.designer.cs">
+      <DependentUpon>X_IngresoProbosque.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoRNF.aspx.cs">
+      <DependentUpon>X_IngresoRNF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_IngresoRNF.aspx.designer.cs">
+      <DependentUpon>X_IngresoRNF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_Pinabete.aspx.cs">
+      <DependentUpon>X_Pinabete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_Pinabete.aspx.designer.cs">
+      <DependentUpon>X_Pinabete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_PPMF.aspx.cs">
+      <DependentUpon>X_PPMF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_PPMF.aspx.designer.cs">
+      <DependentUpon>X_PPMF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_ProgramaReduccionEmisiones.aspx.cs">
+      <DependentUpon>X_ProgramaReduccionEmisiones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_ProgramaReduccionEmisiones.aspx.designer.cs">
+      <DependentUpon>X_ProgramaReduccionEmisiones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\X_ProteccionForestal.aspx.cs">
+      <DependentUpon>X_ProteccionForestal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\X_ProteccionForestal.aspx.designer.cs">
+      <DependentUpon>X_ProteccionForestal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Y_Nacionales.aspx.cs">
+      <DependentUpon>Y_Nacionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Y_Nacionales.aspx.designer.cs">
+      <DependentUpon>Y_Nacionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MarcoTrabajo\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MarcoTrabajo\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Resetear_Password.aspx.cs">
+      <DependentUpon>Resetear_Password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resetear_Password.aspx.designer.cs">
+      <DependentUpon>Resetear_Password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DocumentosRed\" />
+    <Folder Include="Medios_VerificacionNacional\" />
+    <Folder Include="Medios_Verificacion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58575</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44359/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\build\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

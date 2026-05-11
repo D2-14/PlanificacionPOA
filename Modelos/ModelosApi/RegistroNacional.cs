@@ -1,0 +1,11 @@
+﻿using System.Collections.Generic;
+
+namespace PlanificacionPOA.Modelos.ModelosApi
+{
+    public class RegistroNacional
+    {
+        public int Error { get; set; } = 0;
+        public string Mensaje { get; set; } = string.Empty;
+        public List<ClaseTwo> Listado { get; set; }
+    }
+}

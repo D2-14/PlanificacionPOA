@@ -1,0 +1,50 @@
+﻿.DropZone1 {
+    width: 300px;
+    height: 150px;
+    background-color: #357A2B;
+    border-color: #CCCCCC;
+    color: #767676;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    color: white;    
+}
+
+.DropZone {
+    width: 300px;
+    height: 150px;
+    background-color: #357A2B;
+    border-color: #CCCCCC;
+    color: #767676;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.demo-container .RadAsyncUpload {
+    text-align: center;
+    margin-left: 0;
+    margin-bottom: 28px;
+}
+
+    .demo-container .RadAsyncUpload .ruFileWrap {
+        text-align: left;
+    }
+
+.demo-container .RadUpload .ruUploadProgress {
+    width: 210px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+html .demo-container .ruFakeInput {
+    width: 200px;
+}
+
+html .RadUpload .ruFileWrap {
+    position: relative;
+}

@@ -1,0 +1,12 @@
+﻿using System.Collections.Generic;
+
+namespace PlanificacionPOA.Modelos.ModelosApi
+{
+    public class ConsumoFamiliar
+    {
+        public int Error { get; set; } = 0;
+        public string Mensaje { get; set; } = string.Empty;
+        public List<Consumo> Aprobado { get; set; }
+        public List<Consumo> Denegado { get; set; }
+    }
+}

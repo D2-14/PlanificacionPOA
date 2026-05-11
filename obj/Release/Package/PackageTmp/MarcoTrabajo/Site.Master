@@ -1,0 +1,470 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="PlanificacionPOA.SiteMaster" %>
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %>Sistema de Planificación (POA) INAB</title>  
+    <link rel="stylesheet" type="text/css" href="../Login_Css/bootstrap.min.css"/> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">   
+    <link rel="stylesheet" type="text/css" href="../assets/icon/themify-icons/themify-icons.css">  
+    <link rel="stylesheet" type="text/css" href="../assets/icon/font-awesome/css/font-awesome.min.css">         
+    <link rel="stylesheet" type="text/css" href="../assets/icon/icofont/css/icofont.css"> 
+    <link rel="stylesheet" type="text/css" href="../assets/css/MyStyle.css"  />
+    <link rel="stylesheet" type="text/css" href="../assets/css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css" href="../Login_Css/Login.css">
+    <script type="text/javascript">
+         document.oncontextmenu = function () { return false }
+        window.history.forward(1);       
+    </script> 
+    <asp:PlaceHolder runat="server"/>          
+    <link href="~/Icono.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <form runat="server">        
+       <asp:ScriptManager runat="server"/>         
+        <div class="theme-loader">
+            <div class="loader-track">
+                <div class="loader-bar"></div>
+            </div>
+        </div>         
+        <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+            <nav class="navbar header-navbar pcoded-header">
+               <div class="navbar-wrapper">
+                   <div class="navbar-logo">
+                       <a class="mobile-menu" id="mobile-collapse" href="#!"><i class="ti-menu"></i> </a>                 
+                       <a><img class="img-fluid" src="../Imagenes/logoINAB21.png" width="65" alt="Theme-Logo" /></a>  
+                       &nbsp;<asp:Label ID="lblperfil" Visible="false" runat="server" Style="text-align:left;" Font-Size="9px" ForeColor="#CCFFFF"></asp:Label>                      
+                   </div>                  
+                   <div class="navbar-container container-fluid">
+                       <ul class="nav-left">
+                           <li><div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div></li>                      
+                           <li><a href="#!" onclick="javascript:toggleFullScreen()"><i class="ti-fullscreen"></i></a></li>
+                       </ul>
+                       <ul class="nav-right">                                                    
+                           <li class="user-profile header-notification">
+                               <span  style="font-size:11px;color:white;"><b>
+                                   <span  class="glyphicon glyphicon-user"></span>&nbsp;
+                                    <asp:Label ID="lblUsuario" runat="server"></asp:Label> </b>                                                                     
+                                </span><i class="ti-angle-down"></i>
+                               <ul class="show-notification profile-notification" runat="server" id="CerrarS" style="font-size:12px;">                                                                                                                                
+                                   <li>
+                                       <asp:LinkButton ID="Btncerrarsesion" runat="server" Text="Guardar"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;Cerrar Sesion</asp:LinkButton>                                    
+                                   </li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+              
+               </div>
+           </nav>     
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">                 
+                    <nav class="pcoded-navbar">
+                        <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>                        
+                        <div class="pcoded-inner-navbar main-menu">                            
+                            <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation"></div>                           
+                            <div style="text-align:center;font-size:10px;">
+                                <b>
+                                    <span class="glyphicon glyphicon-user"></span>&nbsp;
+                                    <asp:Label ID="User2" runat="server"></asp:Label><br />
+                                    <asp:Label ID="Perfil2" runat="server"></asp:Label>
+                                </b>
+                           </div>                                                         
+                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms"></div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <span class="pcoded-micon"><i></i></span>                                    
+                                        <asp:LinkButton ID="Btninicio" runat="server" Text="Guardar">&nbsp;&nbsp;<span class="glyphicon glyphicon-home"></span>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Inicio</asp:LinkButton>                                
+                                     <span class="pcoded-mcaret"></span>                                                                                     
+                                </li>                               
+                            </ul>
+                            <div runat="server" id ="AdminDireccion" style="text-align:center;" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">
+                                Planificación, Monitoreo y Evaluación Institucional</div>
+                             <ul runat="server" id="UlPlanificacion" class="pcoded-item pcoded-left-item">
+                                 <li class="pcoded-hasmenu" runat="server">
+                                    <a>
+                                        <span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Planificación</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                         <li runat="server" id="Pla2">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnJefePlanificacion" runat="server" Text="Guardar" ToolTip="Tareas Jefe de Planificador">Jefe de&nbsp;Planificación</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li>  
+                                         <li runat="server" id="Pla3">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                               <asp:LinkButton ID="btnJefePlanificacionNacional" runat="server" Text="Guardar" ToolTip="Tareas nacionales Asignadas del jefe de Planificacion"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Nacional</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                           </a>
+                                        </li>
+                                         <li runat="server" id="Pla1">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnTareaPlanificador" runat="server" Text="Guardar" ToolTip="Tareas Planificador">Encargado&nbsp;Planificación</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li>                                         
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul runat="server" id="UlMonitoreo" class="pcoded-item pcoded-left-item">
+                              <li class="pcoded-hasmenu" runat="server">
+                                   <a>
+                                        <span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Monitoreo</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>                                 
+                              </li> 
+                            </ul>                            
+                            <div runat="server" id ="AdminTarea" style="text-align:center;" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Administración de Tareas Regional</div>                            
+                              <ul runat="server" id="UlRegional" class="pcoded-item pcoded-left-item">
+                                    <li class="pcoded-hasmenu" runat="server">
+                                    <a>
+                                        <span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Regional</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                         <li runat="server" id="Reg1">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnTareaRegional" runat="server" Text="Guardar" ToolTip="Tareas Asignadas al Regional"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Regional</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li>
+                                         <li runat="server" id="Reg3">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnTareaMonitoreoR" runat="server" Text="Guardar" ToolTip="Tareas Asignadas al Regional de Monitoreo y Seguimiento"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Monitoreo</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li>
+                                         <li runat="server" id="Reg2">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnVerficarMetas" runat="server" Text="Guardar" ToolTip="Revisión de metas subregionales"><span class="glyphicon glyphicon-copy"></span>&nbsp;&nbsp;Revisión de Metas</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li>        
+                                    </ul>
+                                </li>
+                            </ul>                             
+                            <ul runat="server" id="UlSubRegional" class="pcoded-item pcoded-left-item">
+                                 <li class="pcoded-hasmenu" runat="server">
+                                    <a>
+                                        <span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">SubRegión</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">                                                                                      
+                                            <li runat="server" id="Sub1">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                               <asp:LinkButton ID="btnTareaSubregional" runat="server" Text="Guardar" ToolTip="Tareas Asignadas al subregional"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas SubRegional</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                           </a>
+                                        </li> 
+                                         <li runat="server" id="Sub2">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                               <asp:LinkButton ID="btnTareaMonitoreoSR" runat="server" Text="Guardar" ToolTip="Tareas Asignadas al subregional de Monitoreo y Seguimiento"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Monitoreo</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                           </a>
+                                        </li>    
+                                    </ul>
+                                </li>
+                            </ul> 
+                             <ul class="pcoded-item pcoded-left-item" runat="server" id="ConsultaPoaRegional">
+                                <li>
+                                    <a style="font-size:9px;">                                        
+                                        <asp:LinkButton ID="btnConsultaPOaRegional" runat="server" Text="Guardar" ToolTip="Consulta de poas ingresados en el sistema que estan aprobados">
+                                          &nbsp;&nbsp;<span class="glyphicon glyphicon-inbox"></span>&nbsp;&nbsp;&nbsp;&nbsp;Consulta de Poa</asp:LinkButton><span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>                              
+                            </ul>       
+                             <div runat="server" id ="AdminTareaNacional" style="text-align:center;" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Administración de Tareas Nacional</div>                             
+                            <ul runat="server" id="UlTareaNacional" class="pcoded-item pcoded-left-item">
+                                 <li class="pcoded-hasmenu" runat="server">
+                                    <a>
+                                        <span class="pcoded-micon"><i class="ti-clipboard"></i></span>
+                                        <span class="pcoded-mtext"  data-i18n="nav.basic-components.main">Tarea Nacional</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">                                                                                      
+                                            <li runat="server" id="TareaDirector">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                               <asp:LinkButton ID="btnTareaNacionalDirectores" runat="server" Text="Guardar" ToolTip="Tareas Asignadas a Directores"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Directores</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                           </a>
+                                        </li>
+                                         <li runat="server" id="TareaMDirector">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnTareaDirectoresMonitoreo" runat="server" Text="Guardar" ToolTip="Tareas Asignadas a Directores de Monitoreo"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tarea Monitoreo</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li> 
+                                         <li runat="server" id="RevisionDirector">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnVerficarMetasNacionalDirectores" runat="server" Text="Guardar" ToolTip="Revisión de metas subregionales"><span class="glyphicon glyphicon-copy"></span>&nbsp;&nbsp;Revisión de Metas</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li> 
+                                         <li runat="server" id="Tareajefaturas">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                               <asp:LinkButton ID="btnTareaNacionalJefes" runat="server" Text="Guardar" ToolTip="Tareas Asignadas a jefes, unidades y parques"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tareas Asignadas</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                           </a>
+                                        </li>
+                                         <li runat="server" id="TareaMJefatura">
+                                            <a style="font-size:9px;"><span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                 <asp:LinkButton ID="btnTareaJefesMonitoreo" runat="server" Text="Guardar" ToolTip="Tareas Asignadas a jefes, unidades y parques de Monitoreo"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Tarea Monitoreo</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                          </a>
+                                        </li> 
+                                        <li runat="server" id="ConsultaPoaNacional">
+                                            <a style="font-size:9px;">                                        
+                                            <asp:LinkButton ID="btnConsultaPoaNacional" runat="server" Text="Guardar" ToolTip="Consulta de poas ingresados en el sistema que estan aprobados">
+                                            <span class="glyphicon glyphicon-inbox"></span>&nbsp;&nbsp; Consulta de Poa</asp:LinkButton><span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>                                                         
+                                    </ul>
+                                </li>
+                            </ul>  
+
+                             <ul class="pcoded-item pcoded-left-item" runat="server" id="Catalogonacional">
+                                <li>
+                                    <a style="font-size:9px;">                                        
+                                        <asp:LinkButton ID="btnCatalogoNacional" runat="server" Text="Guardar" ToolTip="Ingreso de datos que se utilizaran para la información del Poa Nacional">
+                                          &nbsp;&nbsp;<span class="glyphicon glyphicon-paste"></span>&nbsp;&nbsp;&nbsp;&nbsp;Datos para Poa</asp:LinkButton><span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>                              
+                            </ul>   
+                             <div runat="server" id ="Reprogramacion" style="text-align:center;" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Administración de Reprogramación</div>
+                            <ul runat="server" id="Repro1" class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-folder"></i><b>M</b></span>
+                                        <span  class="pcoded-mtext" data-i18n="nav.menu-levels.main">Reprogramación</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                           <li runat="server" id="ReproPlanificacion">
+                                            <a>
+                                                 <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LReproPlanificacion" runat="server" Text="Guardar" ToolTip="Revisión de Reprogramación de Planificación"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Revisión</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li> 
+                                         <li runat="server" id="ReproPlanificacionN">
+                                            <a>
+                                                 <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LReproPlanificacionN" runat="server" Text="Guardar" ToolTip="Revisión de Reprogramación de Planificación"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Revisión Nacional</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>       
+                                        <li runat="server" id="ReproRegional">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LReproRegional" runat="server" Text="Guardar" ToolTip="Reprogramación Regional"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Regional</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li> 
+                                         <li runat="server" id="ReproNacional">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LReproNacional" runat="server" Text="Guardar" ToolTip="Reprogramacion Nacional"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Nacional</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>                                       
+                                    </ul>
+                                </li>
+                            </ul>
+                             <div runat="server" id ="Mantenimiento" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Mantenimiento del Sistema</div>
+                            <ul runat="server" id="LMantenimiento" class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-folder"></i><b>M</b></span>
+                                        <span  class="pcoded-mtext" data-i18n="nav.menu-levels.main">Mantenimiento</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                           <li runat="server" id="li2">
+                                            <a>
+                                                 <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LCreacionPOA" runat="server" Text="Guardar" ToolTip="Creacion de POA's"><span class="glyphicon glyphicon-inbox"></span>&nbsp;&nbsp;Creación del Poa</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>                                       
+                                        <li runat="server" id="Li1">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LMantenimientoPOAS" runat="server" Text="Guardar" ToolTip="Mantenimiento de datos del POA"><span class="glyphicon glyphicon-paste"></span>&nbsp;&nbsp;Datos del Poa</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li> 
+                                         <li runat="server" id="Li3">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LSoportes" runat="server" Text="Guardar" ToolTip="Mantenimiento del POA"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;Mantenimiento Poa</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li runat="server" id="Li4">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="LEnvioTarea" runat="server" Text="Guardar" ToolTip="Envio de Tarea de Ingreso de Metas de Monitoreo y Seguimiento">Envio Tarea Monitoreo</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>    
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div runat="server" id ="Repo" class="pcoded-navigatio-lavel" data-i18n="nav.category.other"></div>
+                              <ul class="pcoded-item pcoded-left-item" runat="server" id="Reportes">
+                                  <li runat="server" id="rep">
+                                            <a style="font-size:9px;">
+                                                 <asp:LinkButton ID="btnReporte" runat="server" Text="Guardar" ToolTip="Reportes del sistema">
+                                                     &nbsp;&nbsp;<span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;&nbsp;&nbsp;Reportes</asp:LinkButton><span class="pcoded-mcaret"></span>                                                
+                                          </a>
+                                  </li>  
+                             </ul>
+                            
+                            <div runat="server" id ="Div1" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Avances POA</div>
+                            <ul runat="server" id="Ul1" class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-folder"></i><b>M</b></span>
+                                        <span  class="pcoded-mtext" data-i18n="nav.menu-levels.main">Avances POA</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                           <li runat="server" id="li5">
+                                            <a>
+                                                 <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="btnAvanacional" runat="server" Text="Guardar" ToolTip="Direcciones Nacionales"><span class="glyphicon glyphicon-inbox"></span>&nbsp;&nbsp;Direcciones Nacionales</asp:LinkButton>
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>                                       
+                                        <li runat="server" id="Li6">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="btnAvanregional" runat="server" Text="Guardar" ToolTip="Direcciones Regionales"><span class="glyphicon glyphicon-paste"></span>&nbsp;&nbsp;Direcciones Regionales</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li> 
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <div runat="server" id ="Documento" class="pcoded-navigatio-lavel" data-i18n="nav.category.other"></div>
+                             <ul class="pcoded-item pcoded-left-item">
+                                <li>
+                                    <a style="font-size:9px;">                                        
+                                        <asp:LinkButton ID="DDocumentoRed" runat="server" Text="Guardar" ToolTip="Subir Documentos en pdf de Red">&nbsp;&nbsp;<span class="glyphicon glyphicon-open-file"></span>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Documentos PDF</asp:LinkButton> 
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>                              
+                            </ul>                              
+                            <div runat="server" id ="admin" class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Administración del Sistema</div>
+                            <ul runat="server" id="Configuracion" class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-hasmenu ">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="ti-settings"></i><b>M</b></span>
+                                        <span  class="pcoded-mtext" data-i18n="nav.menu-levels.main">Configuración</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li runat="server" id="usuarioA">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-settings"></i>M</span>
+                                                <asp:LinkButton ID="btnCreacionUsuario" runat="server" Text="Guardar" ToolTip="Administración de Usuarios del sistema"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Usuarios</asp:LinkButton>                                              
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                         <li runat="server" id="usuarioB">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <asp:LinkButton ID="btnRolesUsuario" runat="server" Text="Guardar" ToolTip="Administración de permisos para los usuarios del sistema"><span class="glyphicon glyphicon-wrench"></span>&nbsp;&nbsp;Permisos (Roles)</asp:LinkButton>                                                                                             
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                        <li runat="server" id="usuarioC">
+                                            <a>
+                                                <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
+                                                <asp:LinkButton ID="btnImagen" runat="server" Text="Guardar" ToolTip="Administración  para subir imagenes a la portada del sistema"><span class="glyphicon glyphicon-film"></span>&nbsp;&nbsp;Imagenes Portada</asp:LinkButton>                                                                                             
+                                                <span class="pcoded-mcaret"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div runat="server" id ="cerrar" class="pcoded-navigatio-lavel" data-i18n="nav.category.other"></div>
+                             <ul class="pcoded-item pcoded-left-item">
+                                <li class="">
+                                    <a >                                        
+                                        <asp:LinkButton ID="LCerrarSesion" runat="server" Text="Guardar" ToolTip="Salir del Sistema">&nbsp;&nbsp;<span class="glyphicon glyphicon-off"></span>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Cerrar Sesión</asp:LinkButton>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>                              
+                            </ul>
+                             <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms"></div>                           
+                        </div>                    
+                    </nav>                  
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <!-- Main-body start -->                          
+                            <div class="main-body">
+                                <div class="page-wrapper">                                                                        
+                                           <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                           </asp:ContentPlaceHolder>                                                                                                                                         
+                                    <!-- Page body end -->                                                                                                    
+                                </div>
+                                   </div>                                         
+                                                                <!-- Main-body end -->
+                                                                <div id="styleSelector">
+                                                                     
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>                                              
+                                            </div>
+                                        </div> 
+        
+        <telerik:RadNotification ID="RadNotification" runat="server" Height="140px" Visible="false"
+            Animation="Fade" EnableRoundedCorners="true" EnableShadow="true"
+            Position="BottomRight" OffsetX="-30" OffsetY="-50" ShowCloseButton="true" 
+            VisibleOnPageLoad="true" LoadContentOn="EveryShow" ShowInterval="6500" KeepOnMouseOver="false">          
+        </telerik:RadNotification>
+
+  <asp:UpdateProgress ID="cargando" runat="server">
+  <ProgressTemplate>
+   <div id="Fondo" class="background">
+ <div id="Progreso" class="Progress">                  
+ </div>
+  </div>       
+  </ProgressTemplate>      
+ </asp:UpdateProgress>     
+    </form>
+     <script type="text/javascript" src="../assets/js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="../assets/js/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../assets/js/popper.js/popper.min.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap/js/bootstrap.min.js"></script>
+<!-- jquery slimscroll js -->
+    <script type="text/javascript" src="../assets/js/jquery-slimscroll/jquery.slimscroll.js"></script>
+<!-- modernizr js -->
+    <script type="text/javascript" src="../assets/js/modernizr/modernizr.js"></script>
+    <script type="text/javascript" src="../assets/js/modernizr/css-scrollbars.js"></script>
+<!-- Custom js -->
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script src="../assets/js/pcoded.min.js"></script>
+    <script src="../assets/js/vartical-demo.js"></script>
+    <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+</body>
+</html>

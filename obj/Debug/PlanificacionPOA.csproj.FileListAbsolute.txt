@@ -1,0 +1,664 @@
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.dll.config
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.pdb
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.exe
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.exe.config
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.rsp
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.exe
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.exe.config
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.rsp
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.AppContext.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Console.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Globalization.Calendars.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Net.Http.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Net.Sockets.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.exe
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.exe.config
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.rsp
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Antlr3.Runtime.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\AspNet.ScriptManager.jQuery.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Newtonsoft.Json.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\System.Web.Optimization.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Telerik.Web.Design.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Telerik.Web.UI.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Telerik.Web.UI.Skins.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\WebGrease.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\EnvDTE.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\stdole.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\System.Web.Optimization.xml
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Newtonsoft.Json.xml
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Antlr3.Runtime.pdb
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.dll
+D:\Proyectos\Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.dll.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\csi.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.AppContext.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Console.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Globalization.Calendars.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Net.Http.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Net.Sockets.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\vbc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Antlr3.Runtime.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\AspNet.ScriptManager.jQuery.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Newtonsoft.Json.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\System.Web.Optimization.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\WebGrease.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\EnvDTE.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\stdole.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\System.Web.Optimization.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Newtonsoft.Json.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Antlr3.Runtime.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\bin\Telerik.Web.UI.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA\obj\Debug\PlanificacionPOA.dll.licenses
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.dll.licenses
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\PlanificacionPOA.dll.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csi.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csi.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\csi.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.AppContext.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Console.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Globalization.Calendars.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.IO.Compression.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.IO.FileSystem.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Net.Http.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Net.Sockets.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.ValueTuple.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Xml.XPath.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\vbc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\vbc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\vbc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Antlr3.Runtime.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\AspNet.ScriptManager.jQuery.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.Web.Infrastructure.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Newtonsoft.Json.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\System.Web.Optimization.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\WebGrease.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\EnvDTE.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\stdole.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\System.Web.Optimization.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Newtonsoft.Json.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Telerik.Web.UI.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Antlr3.Runtime.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA2\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.IO.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.Extensions.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.Formatting.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Http.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Http.WebHost.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\stdole.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+D:\Proyectos\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.IO.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\stdole.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+D:\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.IO.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\stdole.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+C:\Users\carlos.montenegro\Desktop\5. Planificacion_Nuevo\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.IO.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\stdole.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+D:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.IO.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+E:\Codigos para trabajar 2024\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csprojAssemblyReference.cache
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csprojAssemblyReference.cache
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.IO.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\stdole.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+C:\Docs\Repositorio\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll.config
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\PlanificacionPOA.pdb
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csc.exe.config
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csc.rsp
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csi.exe.config
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\csi.rsp
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Buffers.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Collections.Immutable.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Memory.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Numerics.Vectors.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Reflection.Metadata.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\vbc.exe.config
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\vbc.rsp
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\roslyn\VBCSCompiler.exe.config
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.IO.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Net.Http.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Algorithms.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Encoding.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.Primitives.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Security.Cryptography.X509Certificates.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\WebGrease.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\EnvDTE.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\stdole.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\System.Web.Optimization.xml
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Antlr3.Runtime.pdb
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\es\System.Web.Optimization.resources.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.AssemblyReference.cache
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll.licenses
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CoreCompileInputs.cache
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.csproj.CopyComplete
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.dll
+D:\josue.guerra\Documents\repositorioAppsD14\PlanificacionPOA Version 1.1\obj\Debug\PlanificacionPOA.pdb
